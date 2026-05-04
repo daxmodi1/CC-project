@@ -44,7 +44,7 @@ python assembly_worker.py
 ```
 *(Tip: Run multiple `render_worker.py` scripts in different terminals to see the load balancing in action!)*
 
-## 3. Deploying to AWS Free Tier
+## 3. Deploying to AWS (Free Tier):
 1. **Database**: Spin up a PostgreSQL instance on AWS RDS Free Tier. Change the `DATABASE_URL` in `.env` to point to it.
 2. **Frontend**: Connect your GitHub repo to **Vercel** or **AWS Amplify** to host the React dashboard for free.
 3. **Workers & API**: Launch 2-3 EC2 `t2.micro` instances. 
