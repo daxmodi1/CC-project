@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments & Secrets
+.env
+.venv/
+venv/
+ENV/
+
+# Node.js / Frontend
+node_modules/
+dist/
+build/
+
+# OS / Editor Files
+.DS_Store
+.vscode/
+.idea/
+
+# Project Specific
+INFO.txt
+s13677-026-00876-8.pdf
+local_storage/
+animation_lab.db
